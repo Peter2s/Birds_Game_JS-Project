@@ -1,0 +1,49 @@
+#userName{
+    position: relative;
+    top: 50px;
+    margin: auto;
+    width: 50%;
+}
+#userName input{
+    padding: 10px;
+    display: inline-block;
+    margin: auto;
+    width: 100%;
+    font-size: 25px;
+}
+#userName button{
+    width :100%;
+    font-size: 25px;
+    padding: 10px;
+    margin-top: 10px;
+}
+#error{
+    width: 100%;
+    background-color: rgb(236, 43, 43);
+    color: white;
+    font-size: 15px;
+    padding: 10px;
+    text-align: center;
+    margin-top: 5px;  
+}
+.hideerror{
+    visibility: hidden;
+}
+#bridsPoints{
+    position: relative;
+    top: 30px;
+    left: 100px;
+    margin: auto;
+    width: 50%;
+    padding: 20px;
+}
+#bridsPoints img{
+    margin: auto;
+    width:20%;
+    display: inline-block;
+}
+#bridsPoints h2{
+    display: inline-block;
+    font-size: 50px;
+    text-align: center;
+}

@@ -1,0 +1,53 @@
+html{
+    cursor: url("../images/sniper.png") , auto;
+}
+body{
+    overflow-y: hidden; 
+    overflow-x: hidden; 
+}
+#mouse{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    z-index: 5;
+}
+#con{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+}
+.card{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: 20%;
+    margin: auto;
+    text-align: center;
+    background-color: lightgray;
+}
+.popup{
+    width: 50%;
+    margin: auto;
+    padding: 20px;
+    position: relative;
+    top: 100px;
+    background-color: white;
+    text-align: center;
+}
+.popup_img{
+    margin-top: 10px;
+    width: 150px;
+    display: inline-block;
+    margin: auto;
+    
+}
+.popup button{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: rgb(9, 165, 30);
+    border: 1px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+}

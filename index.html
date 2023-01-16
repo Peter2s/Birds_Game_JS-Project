@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Welcome to game</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="./css/index.css" />
+  </head>
+  <body>
+    <div id="userName">
+      <form action="./html/game.html" method="get">
+        <input type="text" name="userName" placeholder="Enter your name" />
+        <button id="go">Go!</button>
+      </form>
+      <h3 id="error" class="hideerror">
+        - user name can't be empty <br />
+        - user name can't be number
+      </h3>
+    </div>
+    <div id="bridsPoints">
+      <div>
+        <img src="./images/cyan.gif" />
+        <h2>+5</h2>
+      </div>
+      <div>
+        <img src="./images/brown.gif" />
+        <h2>+10</h2>
+      </div>
+      <div>
+        <img src="./images/white.gif" />
+        <h2>-5</h2>
+      </div>
+    </div>
+    <script type="module" src="./modules/Base.js"></script>
+  </body>
+</html>
